@@ -57,7 +57,7 @@ CURRENT STATUS: SUBMITTED - awaiting validation
 
 - [DATE] - Application form completed
 - [DATE] - Content pack attached, terms signed
-- [DATE] - Pre-requisite course completed (95/100)
+- [DATE] - Pre-requisite course completed
 - [DATE] - Marketing blackout active until confirmed
 
 Next action: follow up if no contact within 2 weeks
