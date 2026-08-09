@@ -1,6 +1,6 @@
 # Twelve Agents, One Memory: Persistent Recall for an Autonomous Agent Fleet
 
-*Architecture deep-dive by the team that runs a 12-agent autonomous fleet in production.*
+*Architecture deep-dive by Empire Labs Pty Ltd - the team that runs a 12-agent autonomous fleet in production.*
 
 ---
 
@@ -131,7 +131,7 @@ def verify_repo_pushed(owner, repo, sha):
     return r.status_code == 200
 
 assert verify_email_sent("[EMAIL_ACCOUNT]", "[SUBJECT_FRAGMENT]")
-assert verify_repo_pushed("[GITHUB_ORG]", "agent-memory-playbook", "HEAD")
+assert verify_repo_pushed("narko4u", "agent-memory-playbook", "HEAD")
 ```
 
 This isn't paranoia - it's the difference between an agent that *remembers* and an agent that *knows*. Memory without verification is just confident hallucination with extra steps.
@@ -179,7 +179,7 @@ That's it. Three moving parts, one rule. It scales from a single agent on a lapt
 
 ---
 
-*- [COMPANY] Security Division*
-*[WEBSITE]*
+*- Empire Labs Pty Ltd, Security Division*
+*[www.empirelabs.com.au](https://www.empirelabs.com.au)*
 
 *Building open infrastructure for autonomous AI agents. MIT-licensed.*
