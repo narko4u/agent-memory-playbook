@@ -44,5 +44,5 @@ d.line([(620, int(H * 0.14) + 29), (620, int(H * 0.74) + 29)], fill="#334155", w
 d.text((220, 110), "Twelve Agents, One Memory", fill="#e2e8f0")
 d.text((220, 560), "Persistent Recall for an Autonomous Agent Fleet", fill="#94a3b8")
 
-img.save("/mnt/c/VaultSentinel/HermesGenesis/content/agent-memory-playbook/og-cover.png")
+img.save("og-cover.png")
 print("cover written")
