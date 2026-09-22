@@ -153,6 +153,21 @@ The deep-dive write-up is live on Dev.to:
 
 ---
 
+## Acknowledgements
+
+The architecture described here is built on **SQLite FTS5**, the full-text
+search extension of SQLite. SQLite is in the public domain, and FTS5 is
+maintained as part of the SQLite project; it is credited here as the substrate
+the design depends on.
+
+This playbook is a write-up of work done inside the VaultSentinel agent fleet. It
+vendors no third-party code and requires no third-party dependencies.
+
+An earlier version of this material was published on Dev.to. Dev.to is an
+independent platform with its own terms and is not affiliated with this project.
+
+---
+
 *Empire Labs Pty Ltd, Security Division*
 *[www.empirelabs.com.au](https://www.empirelabs.com.au)*
 
